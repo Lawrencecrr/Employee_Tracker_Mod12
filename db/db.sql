@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS module12;
+
+CREATE DATABASE module12;
+
+USE module12;
