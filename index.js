@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const mysql = require('mysql');
-const db = require('./db/connection');
+const db = require('./db/schema.sql');
 
 db.connect(err => {
     if (err) throw err;
